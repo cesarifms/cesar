@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
- nome = 'Emely';
+ nome = 'Cesar';
  count = 10;
 
 

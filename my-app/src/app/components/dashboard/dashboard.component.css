@@ -6,6 +6,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 12px;
+    color: #bab4e5;
+    margin-top: 5px;
+}
+
 .container {
 
     margin: 0 auto;
@@ -181,10 +191,24 @@ section {
     gap: 20px;
 }
 
+section .box1 .member  {
+    background: #f8fafc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 80px 80px;
+}
+
+section .box1 .member .card-member img {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+}
 
 section .box2{
     background: #3af;
 }
+
+section .box1 .member .card-member
 
 .title {
     background: #e4f7f0;
